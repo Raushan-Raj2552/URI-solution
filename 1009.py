@@ -1,0 +1,5 @@
+a=str(input())
+b=float(input())
+c=float(input())
+d=b+(0.15*c)
+print('TOTAL = R$ %1.2f'%(d))

@@ -1,0 +1,10 @@
+a,b,c=input().split(' ')
+A=int(a)
+B=int(b)
+C=float(c)
+d,e,f=input().split(' ')
+D=int(d)
+E=int(e)
+F=float(f)
+G=B*C+E*F
+print('VALOR A PAGAR: R$ %0.2f'%(G))

@@ -1,0 +1,5 @@
+a = input().split()
+b = int(a[0])
+c = int(a[-1])
+d = b*c+(c*(c-1)*0.5)
+print(int(d))
