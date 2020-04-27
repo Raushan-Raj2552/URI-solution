@@ -1,0 +1,16 @@
+a = int(input())
+for i in range(a):
+    c = str(input())
+    b = 0
+    d = c.count('0')
+    e = c.count('1')
+    f = c.count('2')
+    g = c.count('3')
+    h = c.count('4')
+    i = c.count('5')
+    j = c.count('6')
+    k = c.count('7')
+    l = c.count('8')
+    m = c.count('9')
+    b+=(d+j+m)*(6)+(e)*(2)+(f+g+i)*(5)+(h*4)+(k*3)+(l*7)
+    print(b,'leds')
